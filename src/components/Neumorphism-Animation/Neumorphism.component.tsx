@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Neumorphism = () => {
 
     const NeumorphismContainer = styled.div`
-        background: #f0f0f0;
+        /* background: #f0f0f0; */
       box-sizing: border-box;
       display: flex;
       justify-content: center;
@@ -55,7 +55,7 @@ const Neumorphism = () => {
       }
       100% {
         width: 480px;
-        height: 240px;
+        height: 480px;
         background: #fafafa;
         box-shadow:  40px 40px 40px #cccccc,
                      0 0 0 #ffffff,
