@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Button from './components/Custom-Button/Custom-Button.component';
+import InputField from './components/Custom-Inputs/Custom-Input.component';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InputField size="small" type="password" color="blue" padding="2em" placeholder="Small" shape="oblong" width="20%" />
+      <Button name="shop now" color="#2f2a2a" backgroundcolor = "#ffffff" width = "200px" border= "block"  height= "50px"/>
     </div>
   );
 }
