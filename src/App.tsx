@@ -5,6 +5,7 @@ import InputField from './components/Custom-Inputs/Custom-Input.component';
 import Hover from './components/Hover-Component/Hover.component';
 import Identity from './components/Identity/Identity.component';
 import Neumorphism from './components/Neumorphism-Animation/Neumorphism.component';
+import Project from './components/Projects/Project.component';
 import Wave from './components/Wave/Wave.component';
 
 const App: React.FC = () => {
@@ -15,9 +16,11 @@ const App: React.FC = () => {
       <Hover name="Akius" />
       <Wave/>
       {/* <Neumorphism /> */}
-      <Identity  comment ="I love designing websites and keep things as simple as possible. My
+      {/* <Identity  comment ="I love designing websites and keep things as simple as possible. My
           goals is to focus on minimalism and conveying the message that you
           want to send"/>
+       */}
+      <Project name = "Egoski ecommerce App" button_color = "inside-page__btn--city" card_front_color ="card-front__tp--city"/>
     </div>
   );
 }

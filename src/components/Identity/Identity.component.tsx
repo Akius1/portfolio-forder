@@ -72,9 +72,6 @@ const Identity: React.FC<identityProps> = ({ comment }) => {
       }
     }
 
-    /* .flap */
-
-    /* .flap */
 
     :hover .flap::after {
       transform: translatex(300px);
